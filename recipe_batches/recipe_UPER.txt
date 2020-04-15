@@ -1,0 +1,12 @@
+Planning
+
+Create two dictionaries:
+  -First dictionary is titled pizza_ingredients and contains the total amount of ingredients available to us for making pizza
+  -Second dictionary is titled pizza_recipe and contains the ingredients needed to make a single pizza
+
+-Write a function that takes a recipe AND a list of ingredients, both in the form of dictionaries
+  -If required recipe ingredients minus available ingredients is not a negative number (greater than zero)
+    -add one to the batch_number
+    -remove the number of ingredients used from available ingredients
+  -else print (not enough ingredients)
+  -Return the maximum number of pizzas we can make with the available ingredients
