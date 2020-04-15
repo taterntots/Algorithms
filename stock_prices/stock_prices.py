@@ -3,7 +3,19 @@
 import argparse
 
 def find_max_profit(prices):
-  pass
+  # Sort the list from smallest to largest price
+  prices.sort()
+  # Find the largest and smallest price in the list
+  largest_price = prices[-1]
+  smallest_price = prices[0]
+  # Calculate the difference between the smallest and largest price to find the max profit price
+  max_profit = largest_price - smallest_price
+
+  return max_profit
+
+prices = [110, 67, 49, 382, 209]
+
+print(find_max_profit(prices))
 
 
 if __name__ == '__main__':
