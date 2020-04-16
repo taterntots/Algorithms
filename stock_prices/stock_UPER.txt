@@ -7,7 +7,11 @@ Planning
   -Calculate the difference between the smallest and largest price to find the max profit price {% endcomment %}
 
 -Write a function that takes a list of prices (includes both sell price and buy price)
-  -Create variables for current min and current max. Set current min and current max to first index
+  -Create variables for current minimum price and current maximum profit. Set current min and current max to first index
+  -Profit is found by subtracting some price with another price that comes before it
+  -Loop through the list
+  -Profit is equal to (i + 1) minus the current minimum
+  
   -Loop through the list, comparing prices with the current min and max
   -If current min is bigger than the found value, swap it
   -If current max is smaller than the found value, swap it
